@@ -8,6 +8,7 @@ import { Restaurant } from './restaurant.model';
 })
 export class RestaurantComponent implements OnInit {
 
+  myWine : string
   @Input() restaurant: Restaurant
 
   constructor() { }
